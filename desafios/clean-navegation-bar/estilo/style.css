@@ -167,7 +167,7 @@ p {
 
     .icons {
         justify-content: center;
-        margin-top: -95%;
+        margin-top: -90%;
     }
 
     .icon > li > img {
@@ -181,7 +181,7 @@ p {
         flex-direction: row;
         height: 82px;
         max-width: 100%;
-        padding-top: 5%;
+        padding-top: 10%;
         margin: none;
     }
 
