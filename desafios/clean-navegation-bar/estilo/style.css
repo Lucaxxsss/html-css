@@ -151,7 +151,8 @@ p {
 
     header > p {
         color: white;
-        font-size: 30px;
+        text-align: center;
+        font-size: 50px;
         font-family: minimalism;
         margin-left: 1.5%;
         margin-top: 2px;
@@ -160,19 +161,17 @@ p {
     .icon {
         justify-content: flex-end;
         align-content: center;
-        margin-top: -12.0%;
+        margin-top: -2.0%;
         margin-right: 4.6%;   
     }
 
     .icons {
-        justify-content: flex-end;
-        align-content: center;
-        margin-top: -3.0%;
-        margin-right: -1%;
+        justify-content: center;
+        margin-top: -98%;
     }
 
     .icon > li > img {
-        height: 50px;
+        height: 0%;
     }
 
     nav { 
@@ -182,6 +181,7 @@ p {
         flex-direction: row;
         height: 82px;
         max-width: 100%;
+        padding-top: 5%;
         margin: none;
     }
 
