@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+
+    <h2>Albuns do Artista Lil Peep</h2>
+    <p><strong>Lil peep, um artista que apesar de morto, fez e ainda faz muito sucesso, abaixo algumas musicas famosas dele:</strong></p>
+
+<ul>
+    <picture>
+    
+        <source media="(max-width: 700px)" srcset="imagens/littlepeepp.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/littlepeepm.jpg" type="image/jpg">
+        <img src="imagens/littlepeepg.jpg" alt="Lil peep">
+    
+    </picture>
+
+    <h1>Musicas/Audio</h1>
+    <p>
+        <audio preload="auto" autoplay controls loop>
+        
+        <source src="midia/nevereat.mp3" type="audio/mpeg">
+        <p>Caso o audio não carregue você pode <a href="midia/nevereat.mp3" target="_blank" rel="external">clicar aqui</a> e fazer o download!</p>
+
+        </audio>
+
+        <audio src="midia/nevereat.mp3" controls loop></audio>
+        <abbr title="música littlepeep">Lil peep música:</abbr>
+    </p>
+    
+</ul>
+
+   <h1>Vídeos do Youtube</h1>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=RFqfRppCf8KL67Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Videos</h1>
+
+   <p>
+       <video controls width="560">
+        <source src="midia/paisagem.mp4" type="video/mp4">
+       </video>
+   </p>
+
+</body>
+</html>

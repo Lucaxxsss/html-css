@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    */
+
+    font-size: 25px;
+
+    font-weight: 300;
+
+    /*
+    Relativo a "font-weight"
+    lighter, normal, bold, bolder
+    */
+
+    font-style: italic
+    
+    /*
+    Relativo a "font-style"
+    estilo da fonta, Itálico, entre outros estilos.
+    */;
+
+    /* shorthand font
+        font-style -> font-weight -> font-size -> font-family
+    */
+
+}

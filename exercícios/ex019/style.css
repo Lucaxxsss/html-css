@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*
+
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    */
+
+
+body {
+
+    background-color: rgb(234, 235, 239);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 20px;
+
+}
+
+h1 {
+    color: rgb(31, 32, 59);
+
+    text-align: center;
+}
+
+h1#principal {
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-weight: 800;
+
+background-color: rgb(164, 144, 244);
+
+color: rgb(247, 247, 247);
+
+border-radius: 30px;
+
+
+}
+
+h2 {
+
+    font-weight: 600;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: rgb(54, 47, 85);
+
+    text-align: center;
+}
+
+p {
+
+    text-align: justify;
+
+}
+
+p#voltar {
+
+
+    border-radius: 10cm;
+
+    border-style: hidden;
+
+   color: white;
+
+    text-align: center;
+}
+
+.basico {
+
+    background-color: rgba(138, 148, 235, 0.217);
+
+    border-radius: 10cm;
+
+
+}
+
+.intermediario {
+
+    background-color: rgba(206, 138, 235, 0.206);
+
+    border-radius: 10cm;
+
+}
+
+.avancado {
+
+    background-color: rgba(150, 69, 249, 0.217);
+
+    border-radius: 10cm;
+}
+
+div:hover {
+
+    background-color: rgba(162, 119, 203, 0.64);
+
+}
+
+/*
+o sinal de > em CSS para divs, significa que algo é filho dessa div, por exemplo:
+        div > p
+    O p é filho, faz parte dessa div
+*/
+
+div > p {
+
+    display: none;
+
+}
+
+div:hover > p {
+
+    display: block;
+}
+
+div {
+
+    background-color: rgba(162, 119, 203, 0.161);
+
+
+    align-content: center;
+
+    align-items: center;
+
+    border-radius: 25px;
+
+
+    width: 200px;
+    height: 50px;
+
+}

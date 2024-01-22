@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'minimalism';
+    src: url('../fontes/minimal.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'minimal';
+    src: url('../fontes/ZilapMinimalistDemo-nR1vg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #d4dcdf;
+}
+
+a {
+    text-decoration: none;
+    color: #5552b1;
+}
+
+header{
+    color: #232A37;
+    text-align: center;
+    font-family: minimal;
+    font-size: 70px;
+    padding: 10px;
+}
+
+.sub-header{
+    font-size: 20px;
+    font-family: android;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #232A37;
+}
+
+nav > div > a:hover {
+    color: #5552b1;
+    transition: all .2s ease-in;
+}
+
+nav > div > a {
+    color: #76838f;
+    text-decoration: none;
+}
+
+nav {
+    color: #76838f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+section {
+    background-color: #2d10a103;
+    border: 1px solid #8b8f90;
+    border-radius: 10px;
+    margin: auto;
+    padding:0px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+.article-separate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-separate2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section > article > div > h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #160f32;
+    margin: 30px 15px;
+}
+
+section > article > div > p {
+    text-align: justify;
+    font-size: 28px;
+    margin: 10px 15px;
+}
+
+.lista:hover {
+    color: #5552b1;
+    transition: all .1s ease-in-out
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#final {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+footer {
+    color: rgb(7, 10, 21);
+    font-family: minimal;
+    text-align: center;
+}
+
+span {
+    color: rgb(72, 0, 255);
+}
+
+img {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+
+.bugdroid {
+    margin: auto;
+    max-width: 300px;
+}
+
+div.video {
+    position: relative;
+    padding-bottom: 81%;
+}
+
+div.video > iframe{
+    position:absolute;
+    height: 500px;
+    width: 890px;
+    top: 10%;
+    left: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        font-size: 50px;
+    }
+
+    nav {
+        font-size: 25px;
+    }
+
+    section {
+        border: none;
+    }
+
+    .article-separate {
+        display: block;
+    }
+    
+    .article-separate2 {
+        display: block;
+    }        
+}
+
+
+
