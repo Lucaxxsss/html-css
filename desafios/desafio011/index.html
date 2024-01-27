@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div.container {
+      overflow-x: auto;
+      width: 90vw;
+    }
+
+    .num {
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+    
+    th {
+      background-color: rgb(228, 230, 232);
+    }
+
+    th, td {
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    col.notas, col.notas2 {
+      background-color: #edecec;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <table>
+      <colgroup>
+        <col class="area">
+        <col class="disciplinas">
+        <col class="notas" span="2">
+        <col class="media">
+    
+      </colgroup>
+      <caption><strong>Média dos alunos</strong></caption>
+      <thead>
+        <tr>
+          <th rowspan="2" scope="col">ÁREA</th>
+          <th rowspan="2" scope="col">Disciplinas</th>
+          <th colspan="2" scope="col">NOTAS</th>
+          <th rowspan="2" scope="col">Média</th>
+        </tr>
+          <th>Nota 1</th>
+         <th>Nota 2</th>
+        <tr>
+    
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4" style="text-align: center;"><strong>Exatas</strong></td>
+          <td>Matematica</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+        </tr>
+        <tr>
+        <td>Física</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+        <td>Quimica</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <tr>
+        <td>Biologia</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+        <td class="num">0.0</td>
+      </tr>
+      <thead>
+        <tr>
+          <td colspan="4"><strong>Média de Humanas</strong></th>
+          <td class="num">0.0</th>
+        </tr>
+      </thead>
+      <tr>
+          <td rowspan="2"><strong>Humanas</strong></td>
+          <td>História</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+      </tr>
+      <tr>
+        <td>Geografia</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+          <td class="num">0.0</td>
+      </tr>
+      <tfoot>
+        <td colspan="4"><strong>Média de Humanas</strong></td>
+        <td class="num">0.0</td>
+      </tfoot>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
