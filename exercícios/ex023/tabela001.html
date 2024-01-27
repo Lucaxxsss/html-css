@@ -18,6 +18,8 @@
     .tabela {
       margin: auto;
       width: 400px;
+      height: 200px;
+      border-collapse: collapse;
     }
 
     .tabela td:hover {
@@ -26,26 +28,41 @@
 
     .tabela td {
       border: 1px solid #878686;
+      text-align: center;
+      vertical-align: middle;
     }
+    
+    .tabela td:nth-child(odd):hover {
+      background-color: #80e29a;
+    }
+
+    .tabela td:nth-child(odd) {
+      background-color: #ccc;
+    }
+
+    td.numero {
+      text-align: center;
+    }
+
   </style>
 </head>
 <body>
    <h1>TABELA</h1>
    <table class="tabela">
     <tr>
-      <td>A1</td>
-      <td>B1</td>
-      <td>C1</td>
+      <td>São Paulo</td>
+      <td>63%</td>
+      <td class="numero">Não</td>
     </tr>
     <tr>
-      <td>A2</td>
-      <td>B2</td>
-      <td>C2</td>
+      <td>Minas Gerais</td>
+      <td>73%</td>
+      <td class="numero">Sim</td>
     </tr>
     <tr>
-      <td>A3</td>
-      <td>B3</td>
-      <td>C3</td>
+      <td>Rio de Janeiro</td>
+      <td>59%</td>
+      <td class="numero">Sim</td>
     </tr>
 
    </table>
