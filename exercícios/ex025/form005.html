@@ -8,10 +8,10 @@
 <body>
   <h1>nao sei</h1>
 
-  <form action="" method="get">
+  <form action="" method="post">
     <p>
           <label for="iest">Estado</label>
-          <select name="estado" id="iest">
+          <select name="estado" id="iest" required>
               <optgroup label="Região Sudeste">
                 <option value="SP">Sao Paulo</option>
                 <option value="RJ">Rio de Janeiro</option>
@@ -21,19 +21,26 @@
 
               <optgroup label="Região Sul">
                 <option value="RS">Rio Grande do Sul</option>
+                <option value="PR">Parana</option>
               </optgroup>
           </select>
     </p>
 
     <p>
-      <label for="iprof">Profissão</label>
-      <input type="text" name="profissao" id="list">
+      <label for="list">Profissão</label>
+      <input type="text" name="profissao" id="list" list="iprof" required>
         <datalist id="iprof">
-          <option value="">Engenheiro</option>
-          <option value="">Developer</option>
-          <option value="">Contabilizador</option>
-          <option value="">Técnico</option>
-          <option value="">Professor</option>
+          <option value="Venderdor">vend.</option>
+          <option value="Diretor">Dir.</option>
+          <option value="Administrador">Admin.</option>
+          <option value="Marceneiro">Marce.</option>
+          <option value="Paraquedista">Paraq.</option>
+          <option value="Mercante">Mercan.</option>
+          <option value="Engenheiro">Eng.</option>
+          <option value="Developer">Dev</option>
+          <option value="Contabilizador">Cont.</option>
+          <option value="Técnico">Téc.</option>
+          <option value="Professor">Prof.</option>
         </datalist>
     </p>
 
