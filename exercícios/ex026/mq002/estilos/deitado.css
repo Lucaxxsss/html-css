@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* configurações paisagem */
+
+html, body {
+          background-repeat: no-repeat;
+}

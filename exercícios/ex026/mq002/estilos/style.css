@@ -1,3 +1,27 @@
 @charset "UTF-8";
 
 /* configurações gerais */
+
+* {
+          margin: 0px;
+          padding: 0px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+          width: 100vw;
+          height: 100vh;
+          background-color: #233EFF;
+}
+
+body {
+          background: url(../imagens/cev-landscape.jpg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: left bottom;
+}
+
+h1 {
+          color: white;
+          padding: 15px;
+}
