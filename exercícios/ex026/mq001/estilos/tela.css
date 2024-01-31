@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+          padding: 0px;
+          margin: 0px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+          background-color: #ccc;
+          text-align: center;
+}
+
+menu ul {
+          display: flex;
+          justify-content: space-evenly;
+          list-style-type: none;
+}
+
+header h1 {
+          font-size: 5rem;
+}
+
+menu li p{
+          font-size: 3rem;
+}
+
+article {
+          margin: auto;
+          width: 600px;
+}
